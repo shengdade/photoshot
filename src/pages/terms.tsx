@@ -23,8 +23,8 @@ const Terms = () => {
           It is Photoshot&#39;s policy to respect your privacy and comply with
           any applicable law and regulation regarding any personal information
           we may collect about you, including across our website,{" "}
-          <Link textDecoration="underline" href="https://photoshot.app/">
-            https://photoshot.app/
+          <Link textDecoration="underline" href="https://photoshot.live/">
+            https://photoshot.live/
           </Link>
           , and other sites we own and operate.{" "}
         </Text>
@@ -325,7 +325,7 @@ const Terms = () => {
         <Text>
           For any questions or concerns regarding your privacy, you may contact
           us using the following details:{" "}
-          <Link href="mailto:support@photoshot.app">support@photoshot.app</Link>
+          <Link href="mailto:support@photoshot.live">support@photoshot.live</Link>
         </Text>
       </VStack>
     </PageContainer>

@@ -21,7 +21,7 @@ export default function LoginEmail({ url }: { url: string }): JSX.Element {
                 width="70px"
                 height="70px"
                 align="center"
-                src="https://photoshot.app/favicon.png"
+                src="https://photoshot.live/favicon.png"
               />
               <MjmlText fontWeight={800} fontSize={20} align="center">
                 Your Photoshot Login Link

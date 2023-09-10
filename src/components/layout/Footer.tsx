@@ -60,7 +60,7 @@ export default function Footer() {
           <SocialButton href="https://twitter.com/photoshot_ai">
             <FaTwitter />
           </SocialButton>
-          <SocialButton href="mailto:support@photoshot.app">
+          <SocialButton href="mailto:support@photoshot.live">
             <MdAlternateEmail />
           </SocialButton>
           <Text

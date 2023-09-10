@@ -4,7 +4,7 @@ import React from "react";
 const title = "Generate Custom AI avatar - Photoshot";
 const description =
   "Generate AI avatars that perfectly capture your unique style. Write a prompt and let our Dreambooth and Stable diffusion technology do the rest.";
-const image = "https://photoshot.app/og-cover.jpg";
+const image = "https://photoshot.live/og-cover.jpg";
 
 const DefaultHead = () => (
   <Head>

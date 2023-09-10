@@ -8,25 +8,25 @@ function generateSiteMap(prompts: TPrompt[]) {
   return `<?xml version="1.0" encoding="UTF-8"?>
    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
      <url>
-       <loc>https://photoshot.app</loc>
+       <loc>https://photoshot.live</loc>
      </url>
      <url>
-       <loc>https://photoshot.app/terms</loc>
+       <loc>https://photoshot.live/terms</loc>
      </url>
       <url>
-       <loc>https://photoshot.app/faq</loc>
+       <loc>https://photoshot.live/faq</loc>
      </url>
      <url>
-       <loc>https://photoshot.app/prompts</loc>
+       <loc>https://photoshot.live/prompts</loc>
      </url>
      <url>
-       <loc>https://photoshot.app/how-it-works</loc>
+       <loc>https://photoshot.live/how-it-works</loc>
      </url>
      ${prompts
        .map(({ slug }) => {
          return `
        <url>
-           <loc>https://photoshot.app/prompts/dreambooth/${slug}</loc>
+           <loc>https://photoshot.live/prompts/dreambooth/${slug}</loc>
        </url>
      `;
        })
