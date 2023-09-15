@@ -1,5 +1,5 @@
 import { Box, chakra, Container, Stack, Text } from "@chakra-ui/react";
-import { FaGithub, FaTwitter } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 import { ReactNode } from "react";
 import { MdAlternateEmail } from "react-icons/md";
 import Link from "next/link";
@@ -54,10 +54,7 @@ export default function Footer() {
           <Text fontSize="sm">
             <Link href="/faq">FAQ</Link>
           </Text>
-          <SocialButton href="https://github.com/shinework/photoshot">
-            <FaGithub />
-          </SocialButton>
-          <SocialButton href="https://twitter.com/photoshot_ai">
+          <SocialButton href="https://twitter.com/photoshot_live">
             <FaTwitter />
           </SocialButton>
           <SocialButton href="mailto:support@photoshot.live">

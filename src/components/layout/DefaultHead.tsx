@@ -20,8 +20,8 @@ const DefaultHead = () => (
     <meta property="og:image" content={image} />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@shinework" />
-    <meta name="twitter:creator" content="@shinework" />
+    <meta name="twitter:site" content="@photoshot_live" />
+    <meta name="twitter:creator" content="@photoshot_live" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={image} />
